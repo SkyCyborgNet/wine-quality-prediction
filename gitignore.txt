@@ -1,0 +1,49 @@
+# R files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# RStudio
+*.Rproj
+
+# Data files (grandes)
+*.zip
+*.RData
+*.rda
+*.RDS
+
+# Output files (las imágenes ya están subidas, pero no generar otras)
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.html
+*.docx
+
+# Logs
+*.log
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Python (si usas)
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R Markdown
+*.nb.html
