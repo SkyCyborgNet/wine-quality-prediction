@@ -1,6 +1,6 @@
 #####################################################################
 # PROYECTO FINAL - HARVARDX CAPSTONE: CHOOSE YOUR OWN
-# VERSIÓN DEFINITIVA - TODOS LOS ERRORES CORREGIDOS
+# VERSIÓN DEFINITIVA
 # AUTOR: David Rodriguez
 # FECHA: 2026
 #####################################################################
