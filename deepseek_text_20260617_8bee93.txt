@@ -1,0 +1,42 @@
+==================================================
+INSTRUCCIONES PARA EJECUTAR EL PROYECTO CAPSTONE
+==================================================
+
+📁 CARPETA DE TRABAJO:
+C:\Users\Eric Flores\Downloads\- Universidad\Coursera\Data Science Harvard\Capstone Project
+
+📄 ARCHIVOS PRESENTES:
+- winequality-red.csv          (Dataset de vino - 1,599 registros)
+- matriz_correlacion.png       (Matriz de correlación)
+- distribucion_calidad.png     (Distribución de calidad)
+- comparacion_modelos.png      (Comparación de modelos)
+- importancia_variables.png    (Top 10 variables importantes)
+- script_corregido_final.R     (Script principal)
+- LEEME.txt                    (Este archivo)
+
+🚀 CÓMO EJECUTAR:
+1. Abrir RStudio
+2. Abrir el archivo: script_corregido_final.R
+3. Seleccionar todo (Ctrl+A)
+4. Ejecutar (Ctrl+Enter)
+5. O ejecutar directamente:
+   source("script_corregido_final.R")
+
+⏱️ TIEMPO ESTIMADO:
+- Primera ejecución: 5-10 minutos
+- Ejecuciones posteriores: 3-5 minutos
+
+📊 RESULTADOS ESPERADOS:
+- Accuracy CART: ~0.85-0.90
+- Accuracy Random Forest: ~0.90-0.95
+- Accuracy XGBoost: ~0.90-0.95
+- Mejor modelo: Random Forest o XGBoost
+
+✅ VERIFICACIÓN DE ÉXITO:
+Al final del script verás:
+=== PIPELINE COMPLETADO EXITOSAMENTE ===
+
+==================================================
+FECHA: 2026
+AUTOR: David Rodriguez
+==================================================
