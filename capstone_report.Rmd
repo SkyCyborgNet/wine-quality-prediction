@@ -1,0 +1,48 @@
+---
+title: "Wine Quality Prediction Using Machine Learning Techniques"
+author: "David Rodriguez"
+date: "June 2026"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+    keep_tex: false
+    fig_width: 6
+    fig_height: 4
+  html_document:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+    fig_width: 6
+    fig_height: 4
+---
+
+```{r setup, include=FALSE}
+# ==================================================
+# SETUP AND CONFIGURATION
+# ==================================================
+
+knitr::opts_chunk$set(
+    echo = TRUE,
+    warning = FALSE,
+    message = FALSE,
+    cache = TRUE,
+    fig.align = "center",
+    fig.show = "hold"
+)
+
+# Load required libraries
+library(tidyverse)
+library(caret)
+library(corrplot)
+library(rpart)
+library(randomForest)
+library(xgboost)
+library(matrixStats)
+library(ggplot2)
+library(gridExtra)
+library(dslabs)
+
+# Set options
+options(digits = 4)
